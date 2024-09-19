@@ -27,7 +27,7 @@ export default class SteamRequest {
     };
 
     //this.interface = constants.development ? 'ISteamMicroTxnSandbox' : 'ISteamMicroTxn';
-    this.interface = 'ISteamMicroTxnSandbox';
+    this.interface = 'ISteamMicroTxn';
   }
 
   /**
